@@ -1,0 +1,77 @@
+A chatbot will be used to provide answers to questions based on the below FAQ. 
+Create 30 different questions and asnwers paris that test the chatbot knowledge and accuracy. 
+The questions and answers your generate should not repeat the FAQ Q&A  verbatim, but still be accuracy according to the FAQ. 
+Consider creating complex questions that require more than one pair of FAQ Q&A to answer. For example: "I'm 26 years old will I be able to rent an SUV"?
+Your output should look like output_format:
+<output_format>
+{ "examples" : [
+    {
+    "question": "I'm 26 years old will I be able to rent an SUV",
+    "coverage": "Q1,Q2",
+    "ground_truth": "Yes, we have a wide range of vehicles, including SUVs"
+    },
+]
+}
+</output_format>
+
+<FAQ>
+1. Q: What types of vehicles does BedrockCars offer?
+   A: BedrockCars offers a wide range of vehicles, including compact cars, sedans, SUVs, and minivans, to cater to the diverse needs of our customers.
+
+2. Q: What is the minimum age requirement to rent a car from BedrockCars?
+   A: The minimum age requirement to rent a car from BedrockCars is 22 years old. Drivers under the age of 25 may be subject to additional fees.
+
+3. Q: Does BedrockCars offer one-way rentals?
+   A: Yes, BedrockCars does offer one-way rentals, allowing customers to pick up a vehicle at one location and drop it off at another.
+
+4. Q: What is the rental process like at BedrockCars?
+   A: The rental process at BedrockCars is straightforward. Customers can reserve their vehicle online, by phone, or in person at one of our locations. Upon arrival, they will need to provide a valid driver's license, a credit or debit card for the deposit, and any other required documentation.
+
+5. Q: Does BedrockCars offer any discounts or special rates?
+   A: Yes, BedrockCars offers various discounts and special rates, including corporate rates, military/veteran discounts, and promotional offers. Customers are encouraged to check our website or contact our customer service team for the latest deals.
+
+6. Q: Can I add additional drivers to my rental?
+   A: Yes, you can add additional drivers to your rental for a nominal fee. All additional drivers must meet the same age and licensing requirements as the primary driver.
+
+7. Q: What is the BedrockCars refueling policy?
+   A: BedrockCars operates on a full-to-full refueling policy. Customers are required to return the vehicle with a full tank of gas, or they will be charged a refueling fee.
+
+8. Q: Does BedrockCars offer any insurance coverage?
+   A: Yes, BedrockCars provides basic liability insurance coverage as part of the rental agreement. Customers also have the option to purchase additional insurance coverage, such as collision damage waiver (CDW) and personal accident insurance (PAI), for added protection.
+
+9. Q: Can I extend my rental period if needed?
+   A: Yes, you can extend your rental period, subject to availability. Customers should contact our customer service team as soon as possible to request an extension.
+
+10. Q: What is the BedrockCars pet policy?
+    A: BedrockCars welcomes well-behaved pets in our vehicles, but customers must notify us in advance and pay a pet cleaning fee.
+
+11. Q: Does BedrockCars offer any delivery or pickup services?
+    A: Yes, BedrockCars offers delivery and pickup services for an additional fee. Customers can have their rental vehicle delivered to their location or picked up from a designated spot.
+
+12. Q: Can I cancel or modify my rental reservation?
+    A: Yes, customers can cancel or modify their rental reservations, but fees may apply depending on the timing and the type of change requested.
+
+13. Q: What happens if I return the vehicle late?
+    A: If a customer returns the vehicle late, they may be subject to additional hourly or daily rental fees. It is important to return the vehicle within the agreed-upon rental period to avoid any late charges.
+
+14. Q: Does BedrockCars offer any loyalty or rewards programs?
+    A: Yes, BedrockCars has a loyalty program called "Bedrock Rewards" that allows customers to earn points for each rental, which can be redeemed for future discounts or upgrades.
+
+15. Q: Can I use my own car seat or booster seat in the rental vehicle?
+    A: Yes, customers are welcome to use their own car seats or booster seats in the rental vehicle. BedrockCars does not provide these items, but they can be installed in the rental car.
+
+16. Q: What happens if I get into an accident while driving a BedrockCars vehicle?
+    A: In the event of an accident, customers should immediately contact our 24/7 roadside assistance line. Our team will provide guidance on the necessary steps to take and assist with the claims process.
+
+17. Q: Does BedrockCars offer any special rates or packages for long-term rentals?
+    A: Yes, BedrockCars offers competitive rates and packages for customers who need to rent a vehicle for an extended period, such as a week or more. Customers can inquire about our long-term rental options.
+
+18. Q: Can I rent a vehicle for a one-way trip to another city?
+    A: Yes, BedrockCars allows customers to rent a vehicle for a one-way trip to another city. Additional fees may apply, and customers should check with our customer service team for more information.
+
+19. Q: Does BedrockCars have any restrictions on where I can take the rental vehicle?
+    A: BedrockCars generally allows customers to take the rental vehicle anywhere within the continental United States. However, there may be some restrictions on cross-border travel or driving in certain areas. Customers should check with our team for more details.
+
+20. Q: How can I provide feedback or file a complaint about my rental experience?
+    A: BedrockCars values customer feedback and takes all concerns seriously. Customers can contact our customer service team by phone, email, or through our website to provide feedback or file a complaint. We will investigate the issue and work to resolve it to the customer's satisfaction.
+</FAQ>

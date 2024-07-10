@@ -1,0 +1,138 @@
+{ "examples" : [
+    {
+        "question": "I'm 26 years old will I be able to rent an SUV?",
+        "coverage": "Q1, Q2",
+        "ground_truth": "Yes, you will be able to rent an SUV as BedrockCars offers a wide range of vehicles, including SUVs, and the minimum age requirement to rent is 22 years old."
+    },
+    {
+        "question": "Can I return the rental car to a different location than where I picked it up?",
+        "coverage": "Q3",
+        "ground_truth": "Yes, BedrockCars allows one-way rentals, which means you can pick up the vehicle at one location and drop it off at another."
+    },
+    {
+        "question": "What documentation do I need to provide when renting a car from BedrockCars?",
+        "coverage": "Q4",
+        "ground_truth": "When renting a car from BedrockCars, you will need to provide a valid driver's license, a credit or debit card for the deposit, and any other required documentation."
+    },
+    {
+        "question": "I'm a member of the military. Are there any discounts available for me at BedrockCars?",
+        "coverage": "Q5",
+        "ground_truth": "Yes, BedrockCars offers military/veteran discounts. You should check their website or contact their customer service team for the latest deals."
+    },
+    {
+        "question": "If I want my spouse to drive the rental car as well, can they be added as an additional driver?",
+        "coverage": "Q6",
+        "ground_truth": "Yes, you can add additional drivers, like your spouse, to your rental for a nominal fee. They must meet the same age and licensing requirements as the primary driver."
+    },
+    {
+        "question": "What happens if I don't refuel the car before returning it to BedrockCars?",
+        "coverage": "Q7",
+        "ground_truth": "BedrockCars operates on a full-to-full refueling policy. If you don't refuel the car before returning it, you will be charged a refueling fee."
+    },
+    {
+        "question": "My rental car got into an accident. What should I do?",
+        "coverage": "Q16",
+        "ground_truth": "If you get into an accident while driving a BedrockCars vehicle, you should immediately contact their 24/7 roadside assistance line. Their team will provide guidance on the necessary steps to take and assist with the claims process."
+    },
+    {
+        "question": "I need to rent a car for a month-long business trip. Are there any special rates available for long-term rentals?",
+        "coverage": "Q17",
+        "ground_truth": "Yes, BedrockCars offers competitive rates and packages for customers who need to rent a vehicle for an extended period, such as a week or more. You should inquire about their long-term rental options."
+    },
+    {
+        "question": "Can I take the rental car across state lines?",
+        "coverage": "Q19",
+        "ground_truth": "BedrockCars generally allows customers to take the rental vehicle anywhere within the continental United States. However, there may be some restrictions on cross-border travel or driving in certain areas. You should check with their team for more details."
+    },
+    {
+        "question": "I had a negative experience with my recent rental. How can I file a complaint?",
+        "coverage": "Q20",
+        "ground_truth": "BedrockCars values customer feedback and takes all concerns seriously. You can contact their customer service team by phone, email, or through their website to file a complaint. They will investigate the issue and work to resolve it to your satisfaction."
+    },
+    {
+        "question": "I'm a frequent traveler. Does BedrockCars have a loyalty program?",
+        "coverage": "Q14",
+        "ground_truth": "Yes, BedrockCars has a loyalty program called 'Bedrock Rewards' that allows customers to earn points for each rental, which can be redeemed for future discounts or upgrades."
+    },
+    {
+        "question": "I have a young child. Can I use my own car seat in the rental vehicle?",
+        "coverage": "Q15",
+        "ground_truth": "Yes, you are welcome to use your own car seat or booster seat in the rental vehicle from BedrockCars. They do not provide these items, but you can install your own in the rental car."
+    },
+    {
+        "question": "I need to extend my rental period. Is that possible, and what are the fees?",
+        "coverage": "Q9, Q13",
+        "ground_truth": "Yes, you can extend your rental period with BedrockCars, subject to availability. However, if you return the vehicle late, you may be subject to additional hourly or daily rental fees. It is important to contact their customer service team as soon as possible to request an extension and inquire about any applicable fees."
+    },
+    {
+        "question": "I'm planning a road trip with my family and our dog. Can I bring the dog in the rental car?",
+        "coverage": "Q10",
+        "ground_truth": "BedrockCars welcomes well-behaved pets in their vehicles, but you must notify them in advance and pay a pet cleaning fee."
+    },
+    {
+        "question": "My flight arrives late at night. Does BedrockCars offer a delivery service to bring the rental car to me?",
+        "coverage": "Q11",
+        "ground_truth": "Yes, BedrockCars offers delivery and pickup services for an additional fee. You can have your rental vehicle delivered to your location, such as the airport, or picked up from a designated spot."
+    },
+    {
+        "question": "I booked a rental car but need to change the pickup date. Can I modify my reservation?",
+        "coverage": "Q12",
+        "ground_truth": "Yes, you can modify your rental reservation with BedrockCars, but fees may apply depending on the timing and the type of change requested."
+    },
+    {
+        "question": "I'm renting a car for a weekend getaway. Are there any discounts or promotional offers available?",
+        "coverage": "Q5",
+        "ground_truth": "BedrockCars offers various discounts and promotional offers. You should check their website or contact their customer service team for the latest deals."
+    },
+    {
+        "question": "I'm planning to drive to a nearby state for a family event. Do I need any additional insurance coverage?",
+        "coverage": "Q8",
+        "ground_truth": "BedrockCars provides basic liability insurance coverage as part of the rental agreement. However, if you want added protection, you have the option to purchase additional insurance coverage, such as collision damage waiver (CDW) and personal accident insurance (PAI)."
+    },
+    {
+        "question": "I'm a college student. Are there any special rates or discounts available for students?",
+        "coverage": "Q5",
+        "ground_truth": "BedrockCars offers various discounts and special rates, which may include student discounts. You should check their website or contact their customer service team to inquire about any available student rates or promotions."
+    },
+    {
+        "question": "I need to rent a car for a one-way trip from New York to Los Angeles. Is that possible with BedrockCars?",
+        "coverage": "Q3, Q18",
+        "ground_truth": "Yes, BedrockCars allows customers to rent a vehicle for a one-way trip to another city, such as from New York to Los Angeles. However, additional fees may apply, and you should check with their customer service team for more information."
+    },
+    {
+        "question": "I'm attending a conference and need to rent a car. Can I reserve a vehicle with BedrockCars at a corporate rate?",
+        "coverage": "Q5",
+        "ground_truth": "Yes, BedrockCars offers corporate rates for businesses and organizations. You should check their website or contact their customer service team to inquire about the corporate rates and any applicable discounts."
+    },
+    {
+        "question": "I accidentally damaged the rental car. How do I file a claim for the damages?",
+        "coverage": "Q16",
+        "ground_truth": "If you accidentally damage the rental car from BedrockCars, you should immediately contact their 24/7 roadside assistance line. Their team will provide guidance on the necessary steps to take and assist with the claims process."
+    },
+    {
+        "question": "I'm a frequent business traveler. Are there any corporate accounts or partnerships that BedrockCars has?",
+        "coverage": "Q5",
+        "ground_truth": "BedrockCars offers corporate rates and may have partnerships or accounts set up with various businesses and organizations. You should check with your employer or contact BedrockCars' customer service team to inquire about any available corporate accounts or partnerships."
+    },
+    {
+        "question": "My rental car broke down on the highway. What should I do?",
+        "coverage": "Q16",
+        "ground_truth": "If your rental car from BedrockCars breaks down, you should contact their 24/7 roadside assistance line immediately. Their team will provide guidance and assistance to help you in this situation."
+    },
+    {
+        "question": "I have a valid driver's license from another country. Can I still rent a car from BedrockCars?",
+        "coverage": "Q4",
+        "ground_truth": "When renting a car from BedrockCars, you need to provide a valid driver's license. While the FAQ doesn't explicitly mention foreign licenses, it's generally accepted that a valid driver's license from another country should be sufficient, as long as you meet the age and other requirements."
+    },
+    {
+        "question": "I want to rent a car for my honeymoon trip. Does BedrockCars offer any special deals or packages for honeymoon couples?",
+        "coverage": "Q5",
+        "ground_truth": "BedrockCars offers various discounts and special rates, which may include deals or packages for honeymoon couples or other special occasions. You should check their website or contact their customer service team to inquire about any available honeymoon or romantic getaway packages."
+    },
+    {
+        "question": "Can I smoke in the rental car from BedrockCars?",
+        "coverage": "Q10",
+        "ground_truth": "The FAQ does not explicitly mention smoking in rental cars, but generally, rental car companies do not allow smoking in their vehicles. There may be additional cleaning fees or penalties if you smoke in a BedrockCars rental car."
+    }
+    ]
+}

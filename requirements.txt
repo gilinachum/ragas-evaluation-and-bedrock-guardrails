@@ -1,0 +1,8 @@
+boto3
+ipywidgets
+matplotlib
+streamlit
+langchain
+langchain-community
+langchain-aws
+ragas
